@@ -1,5 +1,7 @@
+import appKey from "./appkey.js"
+
 let weather = {
-  apiKey: "aaeaea2b96bdbd49c22e139d730fc13d",
+  apiKey: appKey,
   weatherData: function (city) {
     fetch(
       `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${this.apiKey}`
