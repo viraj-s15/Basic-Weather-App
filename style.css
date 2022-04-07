@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background: rgb(113, 105, 105);
+  font-family: "Montserrat", sans-serif;
+  background-image: linear-gradient(90deg, #003feb 0%, #88bce9 100%);
+  font-size: 135%;
+}
+
+.card {
+  padding: 2.5em;
+  border-radius: 25px;
+  width: 100%;
+  max-width: 700px;
+  margin: 1em;
+  background: url(https://images.unsplash.com/photo-1477840539360-4a1d23071046?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+  color: white;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border-radius: 50%;
+  margin: 1em;
+  border: none;
+  height: 3.5em;
+  width: 4em;
+  outline: none;
+  opacity: 0.4;
+  background-color: rgb(107, 107, 107);
+}
+
+button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  transition: 0.4s ease-in-out;
+}
+
+.search-bar {
+  border: none;
+  border-radius: 50px;
+  padding: 0.25em 1em;
+  outline: none;
+  background-color: rgb(134, 134, 134, 0.2);
+  color: white;
+  font-family: inherit;
+  font-weight: 300;
+  font-size: 1.2em;
+  width: 100%;
+}
+
+h1.temperature {
+  margin: 0.25em;
+  font-size: 1.75em;
+  font-weight: 500;
+}
+
+h2.city {
+  margin: 0.5em;
+}
+
+.weather.icon {
+  margin: 0.25em;
+  color: white;
+}
+
+.description {
+  margin-top: 2em;
+  text-transform: capitalize;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.humidity {
+  margin-top: 2em;
+}
